@@ -1,0 +1,94 @@
+[
+    {
+        "type" : "food",
+        "name": "IGA SAUS BARBEQUE",
+        "price": "60.000",
+        "decription": "Perpaduan antara daging pilihan kami dengan sauce bbq yang nikmat",
+        "image": "/menu/list/iga-bbq.jpg"
+    },
+    {
+        "type" : "food",
+        "name": "IGA SAUS BLACKPEPPER",
+        "price": "65.000",
+        "decription": "pedas dan gurih bercampur menjadi satu menciptakan rasa yang luar biasa",
+        "image": "/menu/list/iga-blackpepper.jpg"
+    },
+    {
+        "type" : "food",
+        "name": "TONGSENG IGA",
+        "price": "45.000",
+        "decription": "iga dengan perpaduan kuah yg nikmat siap memenuhi perutmu",
+        "image": "/menu/list/tongseng.jpg"
+    },
+    {
+        "type" : "food",
+        "name": "IGA MOZARELLA",
+        "price": "45.000",
+        "decription":  "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/iga-mozarella.jpg"
+    },
+    {
+        "type" : "food",
+        "name": "IGA POKAT APA GT",
+        "price": "45.000",
+        "decription":  "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/iga-pokat.jpg"
+    },
+    {
+        "type" : "drink",
+        "name": "AIR MINERAL",
+        "price": "45.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/air-mineral.jpg"
+    },
+    {
+        "type" : "drink",
+        "name": "V60",
+        "price": "45.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/v60.jpg"
+    },
+    {
+        "type" : "drink",
+        "name": "ES TEH MANIS",
+        "price": "45.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/teh-manis.jpg"
+    },
+    
+    {
+        "type" : "drink",
+        "name": "ES JERUK",
+        "price": "45.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/es-jeruk.jpg"
+    },
+    {
+        "type" : "drink",
+        "name": "LEMON TEA",
+        "price": "45.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/lemon-tea.jpg"
+    },
+    {
+        "type" : "snack",
+        "name": "KENTANG GORENG",
+        "price": "15.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/kentang-goreng.jpg"
+    },
+    {
+        "type" : "snack",
+        "name": "TEMPE GORENG",
+        "price": "15.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/tempe-goreng.jpg"
+    },
+    {
+        "type" : "snack",
+        "name": "SOSIS BAKAR",
+        "price": "15.000",
+        "decription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
+        "image": "/menu/list/sosis-goreng.jpg"
+    }
+]
