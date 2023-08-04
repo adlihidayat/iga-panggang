@@ -5,7 +5,7 @@ import MenuItem from "../_components/menuItem";
 import Footer from "../_components/footer";
 import MenuType from "../_components/menuType";
 
-function page() {
+function usePage() {
   const data = require("../../foodData.json");
   const [menuType, setMenuType] = useState("all");
 
@@ -53,4 +53,4 @@ function page() {
   );
 }
 
-export default page;
+export default usePage;
