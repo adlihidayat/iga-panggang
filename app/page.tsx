@@ -11,8 +11,7 @@ import Service from "./_components/service";
 export default function Home() {
   const data = require("../foodData.json");
   return (
-    <main className=" overflow-hidden pb-96 md:pb-52 relative">
-      <Nav />
+    <div className=" overflow-hidden pb-5 relative">
       <News />
       {/* <div className="py-20 flex flex-col items-end"> */}
       <div className=" w-screen flex flex-col items-center pb-20 pt-10 md:pt-20 space-y-5 xl:space-y-0">
@@ -44,9 +43,6 @@ export default function Home() {
       <Service />
       <Review />
       <DownloadApp />
-      <div className="absolute bottom-0">
-        <Footer />
-      </div>
-    </main>
+    </div>
   );
 }

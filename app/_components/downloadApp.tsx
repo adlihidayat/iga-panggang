@@ -9,7 +9,10 @@ function DownloadApp() {
           Order now from Gojek & Grab
         </h1>
         <div className=" flex space-x-2 xl:space-x-10">
-          <div className=" py-3 xl:py-3 px-4 xl:px-7 rounded-xl bg-[#3F3F3F] flex justify-center items-center space-x-3 xl:space-x-5 text-white">
+          <a
+            href="https://apps.apple.com/us/app/gojek/id944875099"
+            className=" py-3 xl:py-3 px-4 xl:px-7 rounded-xl bg-[#3F3F3F] flex justify-center items-center space-x-3 xl:space-x-5 text-white"
+          >
             <div className="w-7 xl:w-12 h-7 xl:h-12 relative">
               <Image
                 fill
@@ -26,8 +29,11 @@ function DownloadApp() {
                 APP STORE
               </p>
             </div>
-          </div>
-          <div className=" py-3 xl:py-3 px-4 xl:px-7 rounded-xl bg-[#3F3F3F] flex justify-center items-center space-x-3 xl:space-x-5 text-white">
+          </a>
+          <a
+            href="https://play.google.com/store/search?q=gojek&c=apps"
+            className=" py-3 xl:py-3 px-4 xl:px-7 rounded-xl bg-[#3F3F3F] flex justify-center items-center space-x-3 xl:space-x-5 text-white"
+          >
             <div className="w-7 xl:w-12 h-7 xl:h-12 relative">
               <Image
                 fill
@@ -44,7 +50,7 @@ function DownloadApp() {
                 PLAY STORE
               </p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div className="relative h-40 w-screen lg:w-[600px] xl:w-[800px] flex items-end justify-center space-x-3">

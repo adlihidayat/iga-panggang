@@ -20,15 +20,21 @@ function Footer() {
           </h1>
         </div>
         <div className="flex space-x-5">
-          <div className="w-7 h-7  relative">
+          <a
+            className="w-7 h-7  relative"
+            href="https://www.instagram.com/igapanggangpakedi/"
+          >
             <Image src="/social-media/instagram.svg" alt="" fill />
-          </div>
-          <div className="w-7 h-7  relative">
+          </a>
+          <a
+            className="w-7 h-7  relative"
+            href="https://www.facebook.com/igapanggangpakedi"
+          >
             <Image src="/social-media/facebook.svg" alt="" fill />
-          </div>
-          <div className="w-7 h-7  relative">
+          </a>
+          <a className="w-7 h-7  relative" href="">
             <Image src="/social-media/email.svg" alt="" fill />
-          </div>
+          </a>
         </div>
       </div>
       <div className=" text-center md:text-right text-sm md:pb-10">

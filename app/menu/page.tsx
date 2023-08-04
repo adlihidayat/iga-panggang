@@ -11,7 +11,6 @@ function usePage() {
 
   return (
     <div className="overflow-x-hidden font-roboto">
-      <Nav />
       <h1 className=" mt-40 text-center text-3xl font-semibold">MENU</h1>
       <MenuType menuType={menuType} setMenuType={setMenuType} />
       <div
@@ -48,7 +47,6 @@ function usePage() {
               })}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
