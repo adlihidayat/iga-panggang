@@ -7,7 +7,7 @@ import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 function Page() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBB5LMnOTOy4xl1rNqT0d3JgzUgNfjc8Y4",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
   });
 
   return (
