@@ -1,1 +1,1 @@
-domain https://iga-panggang-77bj.vercel.app/location
+domain : https://iga-panggang.vercel.app/
