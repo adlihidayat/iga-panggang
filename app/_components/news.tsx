@@ -10,40 +10,80 @@ import Image from "next/image";
 
 function News() {
   return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation={true}
-      pagination={true}
-      mousewheel={true}
-      modules={[Navigation, Pagination, Keyboard]}
-      className="w-screen md:w-[99.9%] h-[400px] md:h-[850px] mt-[0px] md:mt-[60px] font-nunitoSans"
-    >
-      <SwiperSlide className=" bg-white w-screen h-screen">
-        <div className=" flex items-center justify-center w-[100%] h-[100%]">
-          <div className="w-[100%] h-[60%] md:h-[95%] relative">
+    <>
+      <div className="hidden xl:block">
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={1}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          modules={[Navigation, Pagination, Keyboard]}
+          className=" w-[400px] h-[225px] xl:w-[1200px] xl:h-[675px] mt-40"
+        >
+          <SwiperSlide className="">
             <Image
-              src={"/news/poster1.svg"}
+              src={"/news/poster2.jpg"}
               alt=""
               fill
-              className="object-cover"
+              className="object-cover rounded-xl"
             />
-          </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className=" bg-white w-screen h-screen">
-        <div className=" flex items-center justify-center w-[100%] h-[100%]">
-          <div className="w-[100%] h-[60%] md:h-[95%] relative ">
+          </SwiperSlide>
+          <SwiperSlide className="">
             <Image
-              src={"/news/poster2.png"}
+              src={"/news/poster1.jpg"}
               alt=""
               fill
-              className="object-cover"
+              className="object-cover rounded-xl"
             />
-          </div>
-        </div>
-      </SwiperSlide>
-    </Swiper>
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={"/news/poster3.jpg"}
+              alt=""
+              fill
+              className="object-cover rounded-xl"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      <div className="xl:hidden">
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={1}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          modules={[Navigation, Pagination, Keyboard]}
+          className="w-[340px] h-[453px] sm:w-[600px] sm:h-[800px] xl:w-[1200px] xl:h-[675px] mt-40"
+        >
+          <SwiperSlide className="">
+            <Image
+              src={"/news/posterM2.jpg"}
+              alt=""
+              fill
+              className="object-cover rounded-md"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={"/news/posterM1.jpg"}
+              alt=""
+              fill
+              className="object-cover rounded-md"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <Image
+              src={"/news/posterM3.jpg"}
+              alt=""
+              fill
+              className="object-cover rounded-md"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </>
   );
 }
 

@@ -13,7 +13,6 @@ function Page() {
   return (
     <div className="flex flex-col items-center overflow-x-hidden">
       <h1 className="mt-32 mb-10 text-2xl sm:text-3xl font-semibold">
-        {" "}
         Find us on
       </h1>
       {!isLoaded ? (
