@@ -7,8 +7,3 @@
     @apply w-[80%] max-w-[1000px] h-80 sm:h-[500px] mb-28 sm:mb-40;
   }
 }
-@layer components {
-  :root {
-    --swiper-theme-color: #000;
-  }
-}

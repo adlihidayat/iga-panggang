@@ -13,8 +13,10 @@ function MenuType({ menuType, setMenuType }: Props) {
       <div className=" w-screen flex justify-center space-x-3 mt-10 text-sm font-extrabold">
         <div
           className={`${
-            menuType === "all" ? "bg-[#F4DE19]" : " bg-[#322F2F]"
-          } text-white duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
+            menuType === "all"
+              ? "bg-[#F4DE19]"
+              : " bg-[#322F2F] cursor-pointer hover:bg-[#505050ee]"
+          } text-white   duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
           onClick={() => setMenuType("all")}
         >
           <div className=" w-6 h-6 relative">
@@ -30,8 +32,10 @@ function MenuType({ menuType, setMenuType }: Props) {
         </div>
         <div
           className={`${
-            menuType === "food" ? "bg-[#F4DE19] " : " bg-[#322F2F]"
-          } text-white duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
+            menuType === "food"
+              ? "bg-[#F4DE19] "
+              : " bg-[#322F2F] cursor-pointer hover:bg-[#505050ee]"
+          } text-white   duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
           onClick={() => setMenuType("food")}
         >
           <div className=" w-6 h-6 relative">
@@ -47,8 +51,10 @@ function MenuType({ menuType, setMenuType }: Props) {
         </div>
         <div
           className={`${
-            menuType === "drink" ? "bg-[#F4DE19] " : " bg-[#322F2F]"
-          } text-white duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
+            menuType === "drink"
+              ? "bg-[#F4DE19] "
+              : " bg-[#322F2F] cursor-pointer hover:bg-[#505050ee]"
+          } text-white   duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
           onClick={() => setMenuType("drink")}
         >
           <div className=" w-6 h-6 relative">
@@ -64,8 +70,10 @@ function MenuType({ menuType, setMenuType }: Props) {
         </div>
         <div
           className={`${
-            menuType === "snack" ? "bg-[#F4DE19] " : " bg-[#322F2F]"
-          } text-white duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
+            menuType === "snack"
+              ? "bg-[#F4DE19] "
+              : " bg-[#322F2F] cursor-pointer hover:bg-[#505050ee]"
+          } text-white  duration-500 rounded-lg pt-3 pb-2 w-[70px]  flex flex-col items-center justify-end space-y-2`}
           onClick={() => setMenuType("snack")}
         >
           <div className=" w-6 h-6 relative">
