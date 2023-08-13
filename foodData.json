@@ -3,15 +3,18 @@
         "type" : "food",
         "title" : "BEST SELLER!",
         "name": "IGA SAUS BARBEQUE",
-        "price": "60.000",
+        "multiplePrice" : "yes",
+        "price": ["65.000", "85.000"],
         "decription": "Perpaduan antara daging pilihan kami dengan sauce bbq yang nikmat",
         "image": "/menu/list/iga-bbq.jpg"
     },
     {
+
         "type" : "food",
         "title" : "BEST SELLER!",
         "name": "IGA SAUS BLACKPEPPER",
-        "price": "65.000",
+        "multiplePrice" : "yes",
+        "price": ["65.000", "85.000"],
         "decription": "pedas dan gurih bercampur menjadi satu menciptakan rasa yang luar biasa",
         "image": "/menu/list/iga-blackpepper.jpg"
     },
@@ -27,7 +30,8 @@
         "type" : "food",
         "title" : "BEST SELLER!",
         "name": "IGA MOZARELLA",
-        "price": "45.000",
+        "multiplePrice" : "yes",
+        "price": ["85.000", "115.000"],
         "decription":  "Lorem ipsum dolor sit amet consectetur adipisicing elit. iciendis",
         "image": "/menu/list/iga-mozarella.jpg"
     },

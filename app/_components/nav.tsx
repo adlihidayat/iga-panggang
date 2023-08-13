@@ -34,7 +34,7 @@ function Nav() {
         <nav
           className={`${
             navActive ? "flex flex-col" : "hidden"
-          }  md:flex md:flex-row absolute md:static duration-500 items-center top-[88px] right-5 md:space-x-6 text-[#D6D6D6] md:text-base md:font-medium`}
+          }  md:flex md:flex-row absolute md:static duration-500 items-center top-[85px] right-5 md:space-x-6 text-[#D6D6D6] md:text-base md:font-medium`}
         >
           <Link
             onClick={() => {

@@ -13,8 +13,8 @@ module.exports = {
         roboto: ['Roboto'],
       },
       animation: {
-        shake: 'shake 3s 5s ease-in-out infinite',
-        shine: 'shine 3s 5s ease-in-out infinite',
+        shake: 'shake 1.5s ease-in-out infinite',
+        shine: 'shine 1.5s ease-in-out infinite',
       },
       keyframes: {
         shake: {
