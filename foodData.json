@@ -1,5 +1,6 @@
 [
     {
+        "number" : 0,
         "type" : "food",
         "title" : "BEST SELLER!",
         "name": "IGA SAUS BARBEQUE",
@@ -10,6 +11,7 @@
     },
     {
 
+        "number" : 1,
         "type" : "food",
         "title" : "BEST SELLER!",
         "name": "IGA SAUS BLACKPEPPER",
@@ -19,6 +21,7 @@
         "image": "/menu/list/iga-blackpepper.jpg"
     },
     {
+        "number" : 2,
         "type" : "food",
         "title" : "20% OFF!",
         "name": "TONGSENG IGA",
@@ -27,6 +30,7 @@
         "image": "/menu/list/tongseng.jpg"
     },
     {
+        "number" : 3,
         "type" : "food",
         "title" : "BEST SELLER!",
         "name": "IGA MOZARELLA",
@@ -36,6 +40,7 @@
         "image": "/menu/list/iga-mozarella.jpg"
     },
     {
+        "number" : 4,
         "type" : "drink",
         "title" : "BEST SELLER!",
         "name": "ES TEH MANIS",
@@ -45,6 +50,7 @@
     },
     
     {
+        "number" : 5,
         "type" : "drink",
         "title" : "BEST SELLER!",
         "name": "ES JERUK",
@@ -53,6 +59,7 @@
         "image": "/menu/list/es-jeruk.jpg"
     },
     {
+        "number" : 6,
         "type" : "food",
         "title" : "none",
         "name": "IGA POKAT APA GT",
@@ -61,6 +68,7 @@
         "image": "/menu/list/iga-pokat.jpg"
     },
     {
+        "number" : 7,
         "type" : "drink",
         "title" : "none",
         "name": "AIR MINERAL",
@@ -69,6 +77,7 @@
         "image": "/menu/list/air-mineral.jpg"
     },
     {
+        "number" : 8,
         "type" : "drink",
         "title" : "none",
         "name": "V60",
@@ -77,6 +86,7 @@
         "image": "/menu/list/v60.jpg"
     },
     {
+        "number" : 9,
         "type" : "drink",
         "title" : "none",
         "name": "LEMON TEA",
@@ -85,6 +95,7 @@
         "image": "/menu/list/lemon-tea.jpg"
     },
     {
+        "number" : 10,
         "type" : "snack",
         "title" : "none",
         "name": "KENTANG GORENG",
@@ -93,6 +104,7 @@
         "image": "/menu/list/kentang-goreng.jpg"
     },
     {
+        "number" : 11,
         "type" : "snack",
         "title" : "none",
         "name": "TEMPE GORENG",
@@ -101,6 +113,7 @@
         "image": "/menu/list/tempe-goreng.jpg"
     },
     {
+        "number" : 12,
         "type" : "snack",
         "title" : "none",
         "name": "SOSIS BAKAR",

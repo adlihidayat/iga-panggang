@@ -2,10 +2,10 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-function MenuItem({ data, index }: any) {
+function MenuItem({ data }: any) {
   return (
     <Link
-      href={`/menu/${index}`}
+      href={`/menu/${data.number}`}
       className="duration-300 w-40 md:w-52 md:hover:w-[220px] md:hover:-translate-x-1 xl:w-60 xl:hover:w-[252px]  md:hover:-translate-y-3 relative font-poppins drop-shadow-[0_0px_10px_rgba(200,200,0,0.25)]"
     >
       {data.title !== "none" && (

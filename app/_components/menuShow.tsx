@@ -11,14 +11,14 @@ function MenuShow({ menuType }: any) {
     >
       <div className="grid grid-cols-2 gap-y-16 md:gap-y-20 xl:gap-y-24 w-[90%] max-w-[350px] sm:max-w-none sm:w-[350px] md:w-[680px] xl:w-[1090px] gap-x-5 xl:gap-x-10 md:grid-cols-3 xl:grid-cols-4">
         {menuType === "all" &&
-          data.map((e: any, index: any) => {
-            return <MenuItem index={index} key={e.name} data={e} />;
+          data.map((e: any) => {
+            return <MenuItem key={e.name} data={e} />;
           })}
         {menuType !== "all" &&
           data
             .filter((e: any) => e.type === menuType)
-            .map((e: any, index: any) => {
-              return <MenuItem index={index} key={e.name} data={e} />;
+            .map((e: any) => {
+              return <MenuItem key={e.name} data={e} />;
             })}
       </div>
     </div>

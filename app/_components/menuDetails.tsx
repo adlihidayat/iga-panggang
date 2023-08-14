@@ -4,6 +4,7 @@ import React, { useState } from "react";
 function MenuDetails({ index }: any) {
   const data = require("../../foodData.json");
   const [size, setSize] = useState(0);
+  // console.log(data[index].name);
 
   return (
     <div className="  flex flex-col lg:flex-row lg:space-x-20 xl:space-x-32 md:justify-center items-center font-poppins space-y-10 pb-24">

@@ -7,10 +7,10 @@ function MenuHighlight() {
   return (
     <div className=" w-screen  py-32 xl:pt-52 flex flex-col items-center justify-center space-y-10">
       <div className="grid grid-cols-2 gap-y-16 md:gap-y-20 xl:gap-y-24 w-[90%] max-w-[350px] sm:max-w-none sm:w-[350px] md:w-[680px] xl:w-[1090px] gap-x-5 xl:gap-x-10 md:grid-cols-3 xl:grid-cols-4">
-        <MenuItem index={0} data={data[0]} />
-        <MenuItem index={1} data={data[1]} />
-        <MenuItem index={2} data={data[2]} />
-        <MenuItem index={3} data={data[3]} />
+        <MenuItem data={data[0]} />
+        <MenuItem data={data[1]} />
+        <MenuItem data={data[2]} />
+        <MenuItem data={data[3]} />
       </div>
       <Link
         href={"/menu"}
